@@ -4,8 +4,8 @@
 	"http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
 
-	<description>nacka24 Platform</description>
-	<display-name>nacka24 Platform</display-name>
+	<description>ePlatform</description>
+	<display-name>ePlatform</display-name>
 
 <!-- MODULE:BEGIN org.apache.myfaces 0.0 -->
 <!-- MODULE:END org.apache.myfaces 0.0 -->
