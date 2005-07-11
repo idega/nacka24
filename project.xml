@@ -305,6 +305,14 @@
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
+      <artifactId>se.idega.idegaweb.commune.accounting.resource</artifactId>
+      <version>1.0.1</version>
+      <!--version>SNAPSHOT</version-->
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+   <dependency>
+      <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.provider</artifactId>
       <version>1.0.1</version>
       <!--version>SNAPSHOT</version-->
