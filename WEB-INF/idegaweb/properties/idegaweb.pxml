@@ -5,7 +5,7 @@
     <key>
       <name>defaultlocale</name>
       <type>java.lang.String</type>
-      <value>en</value>
+      <value>sv_SE</value>
     </key>
     <key>
       <name>entity-auto-create</name>
