@@ -7,6 +7,10 @@
   <currentVersion>3.0RC3</currentVersion>
   <inceptionYear>2000</inceptionYear>
   <shortDescription>This is the CMS Application of idegaWeb</shortDescription>
+    <repository>
+        <connection>scm:cvs:ext:${cvs.username}@einstein.idega.is:/idega/cvs:applications/${pom.artifactId}/</connection>
+        <developerConnection>scm:cvs:ext:${cvs.username}@einstein.idega.is:/idega/cvs:applications/${pom.artifactId}/</developerConnection>
+    </repository>
   <versions>
     <version>
       <id>3.0RC2</id>
