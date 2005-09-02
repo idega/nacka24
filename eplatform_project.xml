@@ -270,5 +270,13 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
+    <dependency>
+         <groupId>bundles</groupId>
+         <artifactId>org.apache.axis</artifactId>
+         <version>SNAPSHOT</version>
+         <type>iwbar</type>
+         <url>http://ws.apache.org/axis/</url>
+         <properties/>
+     </dependency> 
   </dependencies>
 </project>
