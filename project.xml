@@ -6,7 +6,7 @@
   <name>nacka24</name>
   <groupId>iw-applications</groupId>
   <artifactId>nacka24</artifactId>
-  <currentVersion>0.9</currentVersion>
+  <currentVersion>3.0-SNAPSHOT</currentVersion>
   <inceptionYear>2000</inceptionYear>
   <shortDescription>This is the eGov Application of idegaWeb for Nacka</shortDescription>
   <developers>
