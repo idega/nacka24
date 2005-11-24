@@ -2,11 +2,11 @@
 <project>
   <pomVersion>3</pomVersion>
   <!--<extend>${idegaweb.application.base.project.dir}/../eplatform/project.xml</extend>-->
-  <extend>./eplatform_project.xml</extend>
+  <extend>./eplatform_snapshot.xml</extend>
   <name>nacka24</name>
   <groupId>iw-applications</groupId>
   <artifactId>nacka24</artifactId>
-  <currentVersion>3.0-SNAPSHOT</currentVersion>
+  <currentVersion>3.0.1-SNAPSHOT</currentVersion>
   <inceptionYear>2000</inceptionYear>
   <shortDescription>This is the eGov Application of idegaWeb for Nacka</shortDescription>
   <developers>
@@ -22,240 +22,248 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.banner</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.boxoffice</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.building</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.cal</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
    </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.calendar</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
    </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.contract</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.dataquery</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.datareport</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.dictionary</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.documents</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.email</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.forum</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.help</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.image</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.importer</artifactId>
-      <version>1.1.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.1.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.messenger</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.navigation</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.news</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.pdf</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.poll</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.process</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.questions</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.quote</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.reports</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.school</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.staff</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.survey</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.text</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.websearch</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.category</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.idegaweb</artifactId>
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
@@ -267,20 +275,28 @@
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.member</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.family</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    
+ 
+    <!--dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.idegaweb.egov.serviceoffer</artifactId>
+      <version>1.0.1</version>
+      <version>SNAPSHOT<version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency-->
     
     <!-- dependencies on commune -->
     
@@ -288,104 +304,104 @@
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.accounting</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.accounting.resource</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.provider</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.school</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.adulteducation</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.care</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.childcare</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.school.music</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.idegaweb.commune.school.statistic</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.block.pki</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.idega.util</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
    <dependency>
       <groupId>bundles</groupId>
       <artifactId>se.cubecon.bun24.viewpoint</artifactId>
-      <version>1.0.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--version>1.0.1<version-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
