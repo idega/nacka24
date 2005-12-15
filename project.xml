@@ -390,7 +390,7 @@
     </dependency>
 	<dependency>
       <groupId>bundles</groupId>
-      <artifactId>se.idega.idegaweb.commune.school.music</artifactId>
+      <artifactId>isidega.idegaweb.egov.musicschool</artifactId>
       <!--version>1.0.1<version-->
       <version>SNAPSHOT</version>
       <type>iwbar</type>

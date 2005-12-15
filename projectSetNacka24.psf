@@ -9,7 +9,7 @@
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.util.bundle,se.idega.util"/>
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.school.statistic.bundle,se.idega.idegaweb.commune.school.statistic"/>
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.school.placement.bundle,se.idega.idegaweb.commune.school.placement"/>
-		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.school.music.bundle,se.idega.idegaweb.commune.school.music"/>
+		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/is.idega.idegaweb.egov.musicschool.bundle,is.idega.idegaweb.egov.musicschool"/>
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.school.accounting.bundle,se.idega.idegaweb.commune.school.accounting"/>
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.school.bundle,se.idega.idegaweb.commune.school"/>
 		<project reference="1.0,:extssh:einstein.idega.is:/idega/cvs/,bundles/se.idega.idegaweb.commune.provider.bundle,se.idega.idegaweb.commune.provider"/>
