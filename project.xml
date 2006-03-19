@@ -422,7 +422,7 @@
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
-      <artifactId>com.idega.block.beanshell.bundle</artifactId>
+      <artifactId>com.idega.block.beanshell</artifactId>
       <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
