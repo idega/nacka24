@@ -2,8 +2,8 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.idega.block.egov_sv</groupId>
-    <artifactId>com.idega.block.egov_sv</artifactId>
+    <groupId>com.idega.block.egov</groupId>
+    <artifactId>se.idega.block.egov</artifactId>
     <version>4.1.3-SNAPSHOT</version>
   </parent>
   <groupId>com.idega.webapp.custom</groupId>
@@ -262,6 +262,173 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     	<groupId>com.idega.block.egov</groupId>
     	<artifactId>com.idega.block.school</artifactId>
     </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.member</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.block.family</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.musicschool</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.block.pki</artifactId>
+    </dependency>
+    
+    <!-- Dependencies to Swedish specific modules: se egov -->
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.cubecon.bun24.viewpoint</artifactId>
+    </dependency>
+    <dependency>
+  	  <groupId>se.idega.block.egov</groupId>
+  	  <artifactId>se.idega.idegaweb.commune</artifactId>
+  	</dependency>
+  	<dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.accounting</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.accounting.resource</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.adulteducation</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.care</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.childcare</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.provider</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.school</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.school.accounting</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.school.placement</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.idegaweb.commune.school.statistic</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.util</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>se.idega.block.egov</groupId>
+      <artifactId>se.idega.block.pki</artifactId>
+    </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+      <id>idega1</id>
+      <name>idega Maven2 Repository</name>
+      <url>scp://repository.idega.com:/home/idegaweb/repository.idega.com/maven2</url>
+    </repository>
+    <site>
+      <id>idega1</id>
+      <name>idega Maven2 Documentation site</name>
+      <url>scp:///var/www/webs/developer.idega.com/platform4/${groupId}/${artifactId}</url>
+    </site>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>idega1</id>
+      <name>idega maven2 repository</name>
+      <url>http://repository.idega.com/maven2/</url>
+      <!--snapshotPolicy>daily</snapshotPolicy-->
+    </repository>
+    <repository>
+      <id>idega2</id>
+      <name>idega public repository</name>
+      <url>http://repository.idega.com/maven/</url>
+      <!--snapshotPolicy>daily</snapshotPolicy-->
+      <layout>legacy</layout>
+    </repository>
+  </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+          <id>idega1</id>
+          <name>idega maven2 repository</name>
+          <url>http://repository.idega.com/maven2/</url>
+          <!--snapshotPolicy>daily</snapshotPolicy-->
+        </pluginRepository>
+    </pluginRepositories>
+
+  <build>
+    <plugins>
+    
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>buildnumber-maven-plugin</artifactId>
+      <version>1.0-beta-2</version>
+      <configuration>
+            <format>{0,date,yyyyMMdd.HHmmss}</format>
+            <items>
+            <item>timestamp</item>
+            </items>
+        </configuration>
+      <executions>
+        <execution>
+          <phase>validate</phase>
+          <goals>
+            <goal>create</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
+    
+      <plugin>
+        <groupId>com.idega.maven.plugins</groupId>
+        <artifactId>com.idega.maven.webapp</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <archive>
+            <manifest>
+              <!--addClasspath>true</addClasspath-->
+              <addExtensions />
+            </manifest>
+            <manifestEntries>
+                <!--Implementation-Vendor>${pom.organization.name}</Implementation-Vendor-->
+                <Implementation-Vendor-Url>${pom.organization.url}</Implementation-Vendor-Url>
+                <Implementation-Build>${buildNumber}</Implementation-Build>
+                <Implementation-InceptionYear>${pom.inceptionYear}</Implementation-InceptionYear>
+            </manifestEntries>
+          </archive>          
+        </configuration>
+      </plugin>
+      <!-- 
+        <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>tomcat-maven-plugin</artifactId>
+        <configuration>
+        <url>http://formbuilder.idega.is/manager</url>
+        <server>formbuilder</server>
+        </configuration>
+        </plugin>
+      -->
+    </plugins>
+  </build>
 </project>
